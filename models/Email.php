@@ -20,7 +20,7 @@ class Email
             //Server settings
             $this->mail->isSMTP();                                            //Send using SMTP
             $this->mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-            $this->mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+            $this->mail->SMTPAuth   = false;                                   //Enable SMTP authentication
             $this->mail->Username   = 'betelgueser.hurgada@gmail.com';                     //SMTP username
             $this->mail->Password   = 'Bet@2020';                               //SMTP password
             $this->mail->SMTPSecure = "TLS";         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
