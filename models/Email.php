@@ -27,10 +27,10 @@ class Email
             $this->mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         
             //Recipients
-            $this->mail->setFrom('momed1081986@gmail.com', 'BETELGUESER');
+            $this->mail->setFrom('betelgueser.hurgada@gmail.com', 'BETELGUESER');
             $this->mail->addAddress('momed999@hotmail.com');     //Add a recipient
             /*$this->mail->addAddress('ellen@example.com');       */         //Name is optional
-            $this->mail->addReplyTo('momed1081986@gmail.com', 'Information');
+            $this->mail->addReplyTo('betelgueser.hurgada@gmail.com', 'Information');
             /* $this->mail->addCC('cc@example.com');
             $this->mail->addBCC('bcc@example.com'); */
         
